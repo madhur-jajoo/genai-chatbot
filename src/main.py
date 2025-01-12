@@ -4,7 +4,7 @@ load_dotenv()
 from fastapi import FastAPI
 from langserve import add_routes
 
-from chat import chain
+from .chat import chain
 
 app = FastAPI(
     title="A helpful chatbot",

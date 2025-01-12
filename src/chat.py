@@ -2,7 +2,7 @@ import os
 
 from langchain import hub
 
-from GoogleAI.chat_google import ChatGoogleGenAI
+from .GoogleAI.chat_google import ChatGoogleGenAI
 
 chat = ChatGoogleGenAI()
 
